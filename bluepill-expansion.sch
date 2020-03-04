@@ -612,7 +612,7 @@ Wire Wire Line
 	7500 2700 7700 2700
 Wire Wire Line
 	7500 2600 7700 2600
-Text GLabel 7700 3900 2    50   Input ~ 0
+Text GLabel 7700 3100 2    50   Input ~ 0
 ENA
 Wire Wire Line
 	7700 3200 7500 3200
@@ -1353,4 +1353,6 @@ Text Notes 8850 1250 0    98   ~ 20
 ALIMENTACIÓN
 Text Notes 1400 6300 0    98   ~ 20
 MOTORES y ENCODERS
+Wire Wire Line
+	7500 3100 7700 3100
 $EndSCHEMATC
