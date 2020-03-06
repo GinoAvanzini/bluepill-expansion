@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -543,6 +543,17 @@ Wire Wire Line
 	8900 2050 9100 2050
 Wire Wire Line
 	9300 2050 9300 2000
+$Comp
+L Device:CP C6
+U 1 1 5E740E52
+P 9300 1850
+F 0 "C6" H 9418 1896 50  0000 L CNN
+F 1 "10uF" H 9418 1805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9338 1700 50  0001 C CNN
+F 3 "~" H 9300 1850 50  0001 C CNN
+	1    9300 1850
+	1    0    0    -1  
+$EndComp
 $Comp
 L Device:C C5
 U 1 1 5E74005C
@@ -1376,17 +1387,4 @@ Text Label 10000 5500 0    50   ~ 0
 CANH
 Text Label 10000 5700 0    50   ~ 0
 CANL
-$Comp
-L Device:CP C6
-U 1 1 5E740E52
-P 9300 1850
-F 0 "C6" H 9418 1896 50  0000 L CNN
-F 1 "100uF" H 9418 1805 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9338 1700 50  0001 C CNN
-F 3 "~" H 9300 1850 50  0001 C CNN
-	1    9300 1850
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	6150 3950 6250 4050
 $EndSCHEMATC
