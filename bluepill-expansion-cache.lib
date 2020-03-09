@@ -310,6 +310,22 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# bluepill-expansion-rescue_miTornillo-miTornillo
+#
+DEF bluepill-expansion-rescue_miTornillo-miTornillo T 0 40 Y N 1 F N
+F0 "T" 0 100 50 H V C CNN
+F1 "bluepill-expansion-rescue_miTornillo-miTornillo" 0 -100 50 H V C CNN
+F2 "miTornillo:M3" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+ENDDRAW
+ENDDEF
+#
 # bluepill_breakouts_BluePill_STM32F103C
 #
 DEF bluepill_breakouts_BluePill_STM32F103C U 0 40 Y Y 1 F N
@@ -360,22 +376,6 @@ X PA1 6 -850 200 300 R 50 50 1 1 B
 X PA2_TX2 7 -850 100 300 R 50 50 1 1 B
 X PA3_RX2 8 -850 0 300 R 50 50 1 1 B
 X PA4 9 -850 -100 300 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# miTornillo_miTornillo
-#
-DEF miTornillo_miTornillo T 0 40 Y N 1 F N
-F0 "T" 0 100 50 H V C CNN
-F1 "miTornillo_miTornillo" 0 -100 50 H V C CNN
-F2 "miTornillo:M3" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
-DRAW
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -50 1 1 10 f
 ENDDRAW
 ENDDEF
 #

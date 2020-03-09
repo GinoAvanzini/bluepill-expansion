@@ -3,4 +3,5 @@
   (lib (name china_bluepill)(type Legacy)(uri ${KIPRJMOD}/library/china_bluepill.lib)(options "")(descr ""))
   (lib (name miTornillo)(type Legacy)(uri ${KICAD_MILIB}/library/miTornillo.lib)(options "")(descr ""))
   (lib (name miTransistor_BJT)(type Legacy)(uri ${KICAD_MILIB}/library/miTransistor_BJT.lib)(options "")(descr ""))
+  (lib (name bluepill-expansion-rescue)(type Legacy)(uri ${KIPRJMOD}/bluepill-expansion-rescue.lib)(options "")(descr ""))
 )
