@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:bluepill-expansion-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -13,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L bluepill_breakouts:BluePill_STM32F103C U1
-U 1 1 5E5C52D8
-P 6600 3000
-F 0 "U1" H 6625 1527 50  0000 C CNN
-F 1 "BluePill_STM32F103C" H 6625 1436 50  0000 C CNN
-F 2 "BluePill_breakouts:BluePill_STM32F103C" H 6650 1400 50  0001 C CNN
-F 3 "www.rogerclark.net" H 6600 1500 50  0001 C CNN
-	1    6600 3000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5E5C9745
@@ -531,34 +521,6 @@ F 3 "" H 9500 1400 50  0001 C CNN
 	1    9500 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9300 1550 9300 1500
-Wire Wire Line
-	9300 1500 9500 1500
-Wire Wire Line
-	9700 1500 9700 1550
-Wire Wire Line
-	9300 1850 9300 1900
-Wire Wire Line
-	9300 1900 9500 1900
-Wire Wire Line
-	9700 1900 9700 1850
-$Comp
-L Device:C C5
-U 1 1 5E74005C
-P 9300 1700
-F 0 "C5" H 9050 1750 50  0000 L CNN
-F 1 "0.1uF" H 8950 1650 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 9338 1550 50  0001 C CNN
-F 3 "~" H 9300 1700 50  0001 C CNN
-	1    9300 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 1400 9500 1500
-Connection ~ 9500 1500
-Wire Wire Line
-	9500 1500 9700 1500
 $Comp
 L power:GND #PWR0116
 U 1 1 5E7528F4
@@ -572,23 +534,14 @@ F 3 "" H 9500 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 2000 9500 1900
-Connection ~ 9500 1900
-Wire Wire Line
-	9500 1900 9700 1900
-Connection ~ 9700 1500
 Wire Wire Line
 	10200 1750 10100 1750
 Wire Wire Line
 	10100 1750 10100 1900
 Wire Wire Line
-	10100 1900 9700 1900
-Connection ~ 9700 1900
-Wire Wire Line
 	10100 1500 10100 1650
 Wire Wire Line
 	10100 1650 10200 1650
-Wire Wire Line
-	9700 1500 10100 1500
 Text GLabel 7700 2600 2    50   Input ~ 0
 PWM4
 Wire Wire Line
@@ -773,8 +726,6 @@ Wire Wire Line
 	7700 2100 7700 2300
 Wire Wire Line
 	7700 2300 7500 2300
-NoConn ~ 6550 1100
-NoConn ~ 6650 1100
 $Comp
 L power:+5V #PWR0126
 U 1 1 5E888948
@@ -1330,12 +1281,12 @@ CANL
 $Comp
 L Device:CP C6
 U 1 1 5E740E52
-P 9700 1700
-F 0 "C6" H 9818 1746 50  0000 L CNN
-F 1 "470uF" H 9818 1655 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9738 1550 50  0001 C CNN
-F 3 "~" H 9700 1700 50  0001 C CNN
-	1    9700 1700
+P 9500 1700
+F 0 "C6" H 9618 1746 50  0000 L CNN
+F 1 "470uF" H 9618 1655 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9538 1550 50  0001 C CNN
+F 3 "~" H 9500 1700 50  0001 C CNN
+	1    9500 1700
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
@@ -1375,25 +1326,14 @@ Wire Wire Line
 Text GLabel 8800 5700 0    50   Input ~ 0
 CANRX
 $Comp
-L Device:C C7
-U 1 1 5E746727
-P 9300 2900
-F 0 "C7" H 9050 2950 50  0000 L CNN
-F 1 "0.1uF" H 8950 2850 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm" H 9338 2750 50  0001 C CNN
-F 3 "~" H 9300 2900 50  0001 C CNN
-	1    9300 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP C8
 U 1 1 5E746D99
-P 9700 2900
-F 0 "C8" H 9818 2946 50  0000 L CNN
-F 1 "100uF" H 9818 2855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9738 2750 50  0001 C CNN
-F 3 "~" H 9700 2900 50  0001 C CNN
-	1    9700 2900
+P 9500 2900
+F 0 "C8" H 9618 2946 50  0000 L CNN
+F 1 "100uF" H 9618 2855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9538 2750 50  0001 C CNN
+F 3 "~" H 9500 2900 50  0001 C CNN
+	1    9500 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1408,35 +1348,88 @@ F 3 "" H 9500 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 3050 9300 3150
-Wire Wire Line
-	9300 3150 9500 3150
-Wire Wire Line
-	9700 3150 9700 3050
-Wire Wire Line
-	9700 3150 10150 3150
-Wire Wire Line
 	10150 2950 10150 3150
-Connection ~ 9700 3150
-Wire Wire Line
-	10150 2650 9700 2650
-Wire Wire Line
-	9300 2650 9300 2750
 Wire Wire Line
 	10150 2650 10150 2850
-Connection ~ 9500 2650
 Wire Wire Line
-	9500 2650 9300 2650
-Wire Wire Line
-	9700 2750 9700 2650
-Connection ~ 9700 2650
-Wire Wire Line
-	9700 2650 9500 2650
+	9500 2750 9500 2650
 Wire Wire Line
 	9500 3250 9500 3150
-Connection ~ 9500 3150
-Wire Wire Line
-	9500 3150 9700 3150
 Wire Wire Line
 	9500 2550 9500 2650
+$Comp
+L miTornillo:miTornillo T1
+U 1 1 5E698231
+P 6300 7500
+F 0 "T1" H 6380 7546 50  0000 L CNN
+F 1 "miTornillo" H 6380 7455 50  0000 L CNN
+F 2 "miTornillo:M3" H 6300 7500 50  0001 C CNN
+F 3 "~" H 6300 7500 50  0001 C CNN
+	1    6300 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L miTornillo:miTornillo T3
+U 1 1 5E69B1BA
+P 5750 7500
+F 0 "T3" H 5830 7546 50  0000 L CNN
+F 1 "miTornillo" H 5830 7455 50  0000 L CNN
+F 2 "miTornillo:M3" H 5750 7500 50  0001 C CNN
+F 3 "~" H 5750 7500 50  0001 C CNN
+	1    5750 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L miTornillo:miTornillo T4
+U 1 1 5E6A8329
+P 6300 7300
+F 0 "T4" H 6380 7346 50  0000 L CNN
+F 1 "miTornillo" H 6380 7255 50  0000 L CNN
+F 2 "miTornillo:M3" H 6300 7300 50  0001 C CNN
+F 3 "~" H 6300 7300 50  0001 C CNN
+	1    6300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L miTornillo:miTornillo T2
+U 1 1 5E6A8333
+P 5750 7300
+F 0 "T2" H 5830 7346 50  0000 L CNN
+F 1 "miTornillo" H 5830 7255 50  0000 L CNN
+F 2 "miTornillo:M3" H 5750 7300 50  0001 C CNN
+F 3 "~" H 5750 7300 50  0001 C CNN
+	1    5750 7300
+	1    0    0    -1  
+$EndComp
+Connection ~ 9500 2650
+Wire Wire Line
+	9500 2650 10150 2650
+Wire Wire Line
+	9500 3150 10150 3150
+Wire Wire Line
+	9500 3050 9500 3150
+Connection ~ 9500 3150
+Wire Wire Line
+	9500 1500 10100 1500
+Wire Wire Line
+	9500 1900 10100 1900
+Wire Wire Line
+	9500 1850 9500 1900
+Connection ~ 9500 1900
+Wire Wire Line
+	9500 1400 9500 1500
+Connection ~ 9500 1500
+Wire Wire Line
+	9500 1500 9500 1550
+$Comp
+L bluepill_breakouts:BluePill_STM32F103C U1
+U 1 1 5E5C52D8
+P 6600 3000
+F 0 "U1" H 6625 1527 50  0000 C CNN
+F 1 "BluePill_STM32F103C" H 6625 1436 50  0000 C CNN
+F 2 "BluePill_breakouts:BluePill_STM32F103C" H 6650 1400 50  0001 C CNN
+F 3 "www.rogerclark.net" H 6600 1500 50  0001 C CNN
+	1    6600 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
