@@ -946,9 +946,9 @@
       (rotate (xyz 0 0 0))
     )
     (model ${KIPRJMOD}/modules/packages3d/BluePill_breakouts.3dshapes/YAAJ_BluePill.STEP
-      (offset (xyz 17.5 -23 -42))
+      (offset (xyz -2.5 -25 -42))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
