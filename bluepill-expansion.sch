@@ -61,7 +61,7 @@ U 1 1 5E5E7015
 P 1900 2650
 F 0 "U2" H 1450 3300 50  0000 C CNN
 F 1 "L298HN" H 2250 3300 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" H 1950 2000 50  0001 L CNN
+F 2 "miPackage_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" H 1950 2000 50  0001 L CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf" H 2050 2900 50  0001 C CNN
 	1    1900 2650
 	1    0    0    -1  
@@ -515,7 +515,7 @@ U 1 1 5E737E5B
 P 10400 1650
 F 0 "J3" H 10480 1642 50  0000 L CNN
 F 1 "POWER_DC" H 10480 1551 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10400 1650 50  0001 C CNN
+F 2 "miTerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10400 1650 50  0001 C CNN
 F 3 "~" H 10400 1650 50  0001 C CNN
 	1    10400 1650
 	1    0    0    -1  
@@ -808,7 +808,7 @@ U 1 1 5E704C09
 P 2100 6700
 F 0 "J4" H 2180 6692 50  0000 L CNN
 F 1 "MOTDC1" H 2180 6601 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2100 6700 50  0001 C CNN
+F 2 "miTerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2100 6700 50  0001 C CNN
 F 3 "~" H 2100 6700 50  0001 C CNN
 	1    2100 6700
 	1    0    0    -1  
@@ -819,7 +819,7 @@ U 1 1 5E704E63
 P 2100 7050
 F 0 "J5" H 2180 7042 50  0000 L CNN
 F 1 "MOTDC2" H 2180 6951 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2100 7050 50  0001 C CNN
+F 2 "miTerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2100 7050 50  0001 C CNN
 F 3 "~" H 2100 7050 50  0001 C CNN
 	1    2100 7050
 	1    0    0    -1  
@@ -846,7 +846,7 @@ U 1 1 5E6B7424
 P 3750 7000
 F 0 "J10" H 3750 6600 50  0000 C CNN
 F 1 "ENCODERS" H 3750 7300 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-6_P5.08mm" H 3750 7000 50  0001 C CNN
+F 2 "miTerminalBlock:TerminalBlock_bornier-6_P5.08mm" H 3750 7000 50  0001 C CNN
 F 3 "~" H 3750 7000 50  0001 C CNN
 	1    3750 7000
 	1    0    0    1   
@@ -1127,7 +1127,7 @@ U 1 1 5EC92D64
 P 10500 2950
 F 0 "J13" H 10472 2832 50  0000 R CNN
 F 1 "DIGITAL_PWR" H 10472 2923 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10500 2950 50  0001 C CNN
+F 2 "miTerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10500 2950 50  0001 C CNN
 F 3 "~" H 10500 2950 50  0001 C CNN
 	1    10500 2950
 	-1   0    0    1   
@@ -1241,7 +1241,7 @@ U 1 1 5EE98757
 P 2100 5150
 F 0 "SW1" H 2000 5050 50  0000 C CNN
 F 1 "LS1" H 2250 5050 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H8.5mm" H 2100 5350 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 2100 5350 50  0001 C CNN
 F 3 "~" H 2100 5350 50  0001 C CNN
 	1    2100 5150
 	1    0    0    -1  
@@ -1252,7 +1252,7 @@ U 1 1 5EE9977F
 P 4300 5150
 F 0 "SW2" H 4200 5050 50  0000 C CNN
 F 1 "LS2" H 4450 5050 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H8.5mm" H 4300 5350 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 4300 5350 50  0001 C CNN
 F 3 "~" H 4300 5350 50  0001 C CNN
 	1    4300 5150
 	1    0    0    -1  

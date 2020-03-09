@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name BluePill_breakouts)(type KiCad)(uri ${KIPRJMOD}/BluePill_breakouts.pretty)(options "")(descr ""))
+  (lib (name BluePill_breakouts)(type KiCad)(uri ${KIPRJMOD}/modules/BluePill_breakouts.pretty)(options "")(descr ""))
+  (lib (name miTerminalBlock)(type KiCad)(uri ${KIPRJMOD}/modules/miTerminalBlock.pretty)(options "")(descr ""))
+  (lib (name miPackage_TO_SOT_THT)(type KiCad)(uri ${KIPRJMOD}/modules/miPackage_TO_SOT_THT.pretty)(options "")(descr ""))
 )
